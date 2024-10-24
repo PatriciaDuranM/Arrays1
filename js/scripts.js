@@ -129,8 +129,12 @@ ej7([8, 5, 4]);
 
 /*8. Crea una función que reciba un array con 3 números y devuelva un nuevo array con los mismos números pero en orden inverso.*/
 
+/*Poner el array dentro para que luego printee un array de resultado, corregir*/
+
 const ej8 = (array8) => {
-  console.log(array8[2], array8[1], array8[0]);
+  const newNumbers = [];
+  newNumbers.push(array8[2], array8[1], array8[0]);
+  return Newnumbers;
 };
 
 ej8([4, 5, 6]);
