@@ -1,7 +1,7 @@
 /*1. Crea una función que reciba un array de 5 números, imprime por consola una posición aleatoria del array.*/
 
 const randomNumber = (numbers) => {
-  const random = Math.floor(Math.random() * numbers.length);
+  const random = Math.floor(Math.random() * numbers.length); // Numeros entre 0 y numbers.length - 1
   console.log(numbers[random]);
 };
 
